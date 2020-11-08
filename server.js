@@ -6,3 +6,4 @@ const express = require('express');
 const passport = require('passport');
 const { Strategy } = require('passport-google-oauth20');
 const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, SESSION_SECRET } = process.env;
+const port = process.env.PORT || 3000;
